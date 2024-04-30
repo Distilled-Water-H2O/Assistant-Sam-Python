@@ -70,16 +70,13 @@ def main():
         # Generate a response
         bot_response = chat_with_bot(chat_history)
 
-        print("Assistant:", bot_response['content'])
+        print("Sam    :", bot_response['content'])
         speaker.Speak(bot_response['content'])
 
         chat_history.append({
                 'role': 'system',
                 'content': bot_response['content']
             })
-
-        print("Goodbye!")
-
-
+        
 if __name__ == "__main__":
     main()
