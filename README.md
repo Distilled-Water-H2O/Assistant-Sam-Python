@@ -4,4 +4,4 @@
 
 Note: ⚠️ This assistant is based of old openai API chat completion. also make sure to put your own API. 
 
-⏰ **Updated version would pe pushed on**
+⏰ **Updated version would pe pushed on, reuqirements.txt isn't available for now**
